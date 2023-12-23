@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Aryan-01-star
-- 👀 I’m interested in cyber security ande web devlopment works
+- 👀 I’m interested in cyber security and web devlopment works
 - 🌱 I’m currently learning  DSA(Java)
 - 💞️ I’m looking to collaborate on Web Creation
 - 📫 How to reach me through aryanpandey35247@gmail.com
