@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        }
+        .header {
+        width: 100%;
+        height:8%;
+        background-color: #050505;
+        color: #fff;
+        padding: 11px;
+        }   
+        nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+        nav ul li {
+        margin-right: 20px;
+        }
+        nav ul li:last-child {
+        margin-right: 0;
+        } 
+        nav a {
+        color: #fff;
+        text-decoration: none;
+        }
+        nav ul li a {
+        margin: 9px;
+        color: #fcfdfdb1;
+        border-radius: 19px;
+        text-decoration: underline;
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        padding: 4px 6px;
+        transition: all 0.22s ease;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+        color: #010101;
+        background-color: #fff;
+        }
+        .image-container {
+        text-align: center;
+        padding: 20px;
+        }
+        .profile-image {
+        max-width: 100%;
+        height: 250px;
+        border-radius: 20%;
+        }
+        .content-box {
+        padding: 30px;
+        }
+        @media (max-width: 768px){
+        body {
+            font-size: 16px;
+        }
+        .header {
+        width: 100%;
+        height:25%;
+        }
+        nav ul {
+            flex-direction: column;
+            text-align: center;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/23fd0084ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a class="active" href="About_me.html" class="nav-link">About~Me</i></a></li>
+                    <li><a href="skills.html" class="nav-link">Skills&Projects</a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                </ul> 
+            </nav> 
+        </div>
+        <div class="image-container">
+                <img src="https://darkwebhacking.com/img/about/about.jpg" alt="Profile Picture" class="profile-image">
+            </div>
+        <div class="content-box">   
+            
+                <p style="font-weight: bold;color: rgb(1, 1, 1);font-size: larger;">
+                    <h2><i class="fa-solid fa-user-secret" style="color: #000000;"></i>I'm Aryan</h2>
+                    <br/>I'm a Front-End Developer and I'm currently working on me to be an elite Full-Stack webdeveloper.
+                    I'm currently a Btech in ComputerScience graduate persuing from Sharda University.
+                    I'm very passionated about improving my coding skills & developming webpages and designing there frontend.
+                    I have worked on some college project along with some personal projects too.I basically love to worked on
+                    HTML,CSS and JS for my projects.   
+                </p>
+                <h4>Email:aryanpandey35247@gmail.com</h4>
+        </div>
+    </div>
+</body>
+</html>

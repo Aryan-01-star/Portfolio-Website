@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        }
+        .header {
+        width: 100%;
+        background-color: #050505;
+        color: #fff;
+        padding: 11px;
+        }  
+        nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+        nav ul li {
+        margin-right: 20px;
+        }
+        nav ul li:last-child {
+        margin-right: 0;
+        }
+        nav a {
+        color: #fff;
+        text-decoration: none;
+        }
+        nav ul li a {
+        margin: 9px;
+        color: #fcfdfdb1;
+        border-radius: 19px;
+        text-decoration: underline;
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        padding: 4px 6px;
+        transition: all 0.22s ease;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+        color: #010101;
+        background-color: #fff;
+        }
+        h2 {
+        text-decoration: underline;
+        color: rgb(1, 1, 1);
+        font-weight: 900;
+        font-size: xx-large;
+        text-decoration-color: rgb(0, 0, 0);
+        margin: 90px auto;
+        padding-left: 10px;
+        padding-top: 10px;
+        }
+        ul.skills-list {
+        list-style: none;
+        margin: 20px 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: stretch;
+        }
+        ul.Education-list {
+        list-style: none;
+        margin: 20px 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: stretch;
+        }
+        li{
+        width: auto;
+        margin: 2px;
+        padding: 1px 2px 0 2px;
+        box-shadow: 0px -4px 0px 0px rgb(0, 0, 0);
+        text-align: center;
+        border-radius: 15px;
+        }
+        img {
+        width: 100%;
+        max-height: 140px;
+        object-fit: cover;
+        border-radius: 10px;
+        }
+        li h2 {
+        font-size: 20px;
+        color: rgb(9, 253, 237);
+        -webkit-text-stroke: 2px black;
+        margin-top: 1px;
+        }
+        @media (max-width: 768px) {
+        body {
+            font-size: 16px;
+        }
+        nav ul {
+            flex-direction: column;
+            text-align: center;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/23fd0084ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="About_me.html" class="nav-link">About~Me</a></li>
+                    <li><a class="active" href="skills.html" class="nav-link">Skills&Projects</i></a></li>
+                    <li><a href="education.html" class="nav-link">Education</a></li>
+                </ul> 
+            </nav> 
+        </div>
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>
+                <img src="https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn" alt="HTML">
+                <h2>HTML</h2>
+            </li>
+            <li>
+                <img src="https://play-lh.googleusercontent.com/TxjQBGYHvMJsBX5dCvxQ4R-_4N-XrVhW6-p7D7TXanXKZMD8L-UkeMBWO1dtubGVNqU" alt="CSS">
+                <h2>CSS</h2>
+            </li>
+            <li>
+                <img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com019.jpg" alt="JS">
+                <h2>JS</h2>
+            </li>
+            <li>
+                <img src="https://play-lh.googleusercontent.com/WCwcq3DvY0pbaTqUfU1ToySB2s5mmqAUxcLcTN3Y2J5l-sDwS2L2z6_qmCYNX9wdXg" alt="C">
+                <h2>C</h2>
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7cLMEqNoXvj7Bcch3ZT-sppkjXRmi-R-tQQ&usqp=CAU" alt="Python">
+                <h2>Python</h2>
+            </li>
+        </ul>
+        <h2>My Projects</h2>
+        <div style="border: 1px solid #ccc; border-radius: 8px; max-width: 500px; padding: 10px; margin: 0 auto;margin-bottom: 100px;">
+                <img src="Web capture.jpeg" alt="WEBSITE" style="max-width: 100%; border-radius: 8px 8px 0 0;">
+            <div style="background-color: #f1f1f1; padding: 10px; border-radius: 0 0 8px 8px;">
+                <h5 style="margin: 0;">Travel Website</h5>
+                <h6 style="margin: 5px 0 0;">- made with the help of HTML, CSS, JS, PHP</h6>
+            </div>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; max-width: 500px; padding: 10px; margin: 0 auto;margin-bottom: 100px;">
+                <img src="https://www.builder.ai/images/Weather.png" alt="WEBSITE" style="max-width: 100%; border-radius: 8px 8px 0 0;height: 900px;">
+            <div style="background-color: #f1f1f1; padding: 10px; border-radius: 0 0 8px 8px;">
+                <h5 style="margin: 0;">Weather Website</h5>
+                <h6 style="margin: 5px 0 0;">- made with the help of HTML, CSS, JS</h6>
+            </div>
+        </div>   
+        <div style="border: 1px solid #ccc; border-radius: 8px; max-width: 500px; padding: 10px; margin: 0 auto;margin-bottom: 100px;">
+                <img src="https://s.tmimgcdn.com/scr/800x500/276900/brulee-restaurant-cafe-amp-fast-food-html-template_276928-original.jpg" alt="WEBSITE" style="max-width: 100%; border-radius: 8px 8px 0 0;height: 900px;">
+            <div style="background-color: #f1f1f1; padding: 10px; border-radius: 0 0 8px 8px;">
+                <h5 style="margin: 0;">Food Delivering Website</h5>
+                <h6 style="margin: 5px 0 0;">- made with the help of HTML, CSS, JS,PHP</h6>
+            </div>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; max-width: 500px; padding: 10px; margin: 0 auto;margin-bottom: 100px;">
+                <img src="https://i.pinimg.com/736x/b6/31/40/b63140e74245a54edc8f8eaa7d6297d2.jpg" alt="WEBSITE" style="max-width: 100%; border-radius: 8px 8px 0 0;height: 900px;">
+            <div style="background-color: #f1f1f1; padding: 10px; border-radius: 0 0 8px 8px;">
+                <h5 style="margin: 0;">Portfolio Website</h5>
+                <h6 style="margin: 5px 0 0;">- made with the help of HTML, CSS, JS,PHP</h6>
+            </div>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; max-width: 500px; padding: 10px; margin: 0 auto;margin-bottom: 100px;">
+            <img src="https://thedailyguardian.com/wp-content/uploads/2022/09/Netflix.jpg" alt="WEBSITE" style="max-width: 100%; border-radius: 8px 8px 0 0;height: 900px;">
+        <div style="background-color: #f1f1f1; padding: 10px; border-radius: 0 0 8px 8px;">
+            <h5 style="margin: 0;">Netflix Clone</h5>
+            <h6 style="margin: 5px 0 0;">- made with the help of HTML, CSS, JS,PHP</h6>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
